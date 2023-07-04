@@ -1,0 +1,111 @@
+.navbar{
+    margin-bottom: 10px;
+}
+
+.operators{
+    min-height: 30px;
+}
+
+.operators ul{
+    height: 30px;
+}
+
+.operators li{
+    text-transform: capitalize;
+    padding: 0 15px 0 15px;
+    color: #777;
+    height: 100%;
+}
+
+#li{
+    height: 30px;
+    line-height: 30px;
+}
+
+.operators li a{
+    padding: 0 15px 0 15px;
+    height: 100%;
+    line-height: 30px;
+    text-transform: none;
+}
+
+.operators .container-fluid{
+    padding: 0;
+}
+
+.list-operators caption{
+    padding: 0;
+    margin: 0;
+}
+
+.list-operators caption p, .list-operators caption a{
+    display: inline-block;
+}
+
+.list-operators caption p{
+    float: left;
+    margin-left: 10px;
+}
+
+.list-operators caption p:nth-child(2) a{
+    color: #777777;
+    text-decoration: none;
+}
+
+.list-operators caption p:nth-child(2) a:hover{
+    color: #3c3d41;
+}
+
+.list-operators caption p:last-child{
+    float: right;
+    margin-right: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.list-operators caption p:last-child:hover{
+    color: #3c3d41;
+}
+
+.list-operators thead{
+    background-color: #979797;
+}
+
+.list-operators th{
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFF;
+}
+
+.list-operators th:first-child{
+    width: 50px;
+}
+
+.list-operators th:nth-child(2), .list-operators th:nth-child(3){
+    text-transform: uppercase;
+}
+
+.list-operators th:nth-child(3){
+    width: 50px;
+}
+
+.list-operators th:nth-child(4), .list-operators th:nth-child(5), .list-operators th:nth-child(6){
+    width: 95px;
+}
+
+.list-operators th:nth-child(7), .list-operators th:nth-child(8), .list-operators th:nth-child(9){
+    width: 110px;
+}
+
+.list-operators td:nth-child(7), .list-operators td:nth-child(8), .list-operators td:nth-child(9){
+    text-align: center;
+}
+
+.list-operators > tbody > tr > td{
+    padding: 4px 8px 2px 8px;
+}
+
+.list-operators td span{
+    font-size: 16px;
+    cursor: pointer;
+}

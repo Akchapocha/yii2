@@ -1,0 +1,139 @@
+#edit{
+    color: #6ebe34;
+}
+
+#edit:hover{
+    color: #39d618;
+}
+
+#hide{
+    color: #a5a3a7;
+}
+
+#hide:hover{
+    color: #68666a;
+}
+
+#delete{
+    color: #ff5346;
+}
+
+#delete:hover{
+    color: #ff0002;
+}
+
+.modal, .modal-edit {
+    display: none;
+    /*display: block;*/
+
+    width: 520px;
+    max-width: 100%;
+
+    height: 340px;
+    max-height: 100%;
+
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 7px;
+}
+
+.modal h1, .modal-edit h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.modal-overlay {
+    display: none;
+    /*display: block;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.modal-guts, .modal-guts-edit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 20px 30px 20px 20px;
+}
+
+.modal .glyphicon, .modal-edit .glyphicon{
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #908e92;
+}
+
+.modal .glyphicon:hover, .modal-edit .glyphicon:hover{
+    color: #000000;
+}
+
+.modal ul, .modal-edit ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.modal ul label, .modal-edit ul label{
+    display: inline-block;
+    padding: 0;
+    margin: 4px 0 0 10px;
+    text-transform: uppercase;
+    float: left;
+    width: 100px;
+}
+
+.modal ul li, .modal-edit ul li{
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.modal input, .modal-edit input{
+    display: inline-block;
+    float: left;
+}
+
+.modal input, .modal-edit input{
+    width: 100px;
+}
+
+.modal ul li:first-child input, .modal-edit ul li:first-child input{
+    width: 350px;
+}
+
+
+
+.modal button, .modal-edit button{
+    display: inline-block;
+    margin: 15px 0 0 10px;
+}
+
+.modal ul li button, .modal-edit ul li button{
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 2px;
+    text-transform: capitalize;
+}
+
+#save{
+    margin-left: 230px;
+}

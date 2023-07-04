@@ -1,0 +1,82 @@
+/*.records{*/
+/*    width: 920px;*/
+/*}*/
+
+#del{
+    font-size: 16px;
+}
+
+h4, td{
+    color: #777777;
+}
+
+td{
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.active{
+    pointer-events: none;
+}
+
+.pagNav, .countPag{
+    text-align: center;
+}
+
+.countPag label{
+    font-weight: normal;
+    color: #777777;
+}
+
+audio {
+    display: block;
+    height: 20px;
+}
+
+.table{
+    margin-top: 20px;
+}
+
+.preload {
+    display: none;
+    /*display: block;*/
+
+    min-width: 100%;
+    min-height: 100%;
+
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    opacity: 0.85;
+}
+
+
+.loading {
+    position: absolute;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: url('/images/ring.gif') center center no-repeat;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+}
+
+.preload p{
+    position: fixed;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    left: 51%;
+    top: 60%;
+    transform: translate(-51%, -60%);
+    opacity: 1;
+}

@@ -1,0 +1,87 @@
+.user-group{
+    display: inline-block;
+    margin: 20px 0 20px 20px;
+    padding: 0;
+}
+
+.group-it{
+    display: block;
+    font-size: 12px;
+    padding: 4px 10px 4px 10px;
+    text-transform: uppercase;
+}
+
+.group-it input{
+    display: inline-block;
+    float: right;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.it .user-group{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btn-color{
+    background-color: #e4e5e9;
+}
+
+.btn-color:hover{
+    background-color: #d5d6da;
+}
+
+.user-group .btn-color{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.padding-right{
+    padding-right: 20px;
+}
+
+.container-group, .container-users{
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: #e2e0e4 1px solid;
+    border-radius: 10px;
+}
+
+.container-group{
+    margin-left: 10px;
+}
+
+.find-user{
+    display: inline-block;
+    width: 280px;
+}
+
+.find-user input, button, select{
+    display: inline-block;
+}
+
+.find-user >input{
+    width: 200px;
+    padding-bottom: 8px;
+}
+
+.find-user button{
+    width: auto;
+    margin-left: 10px;
+    background-color: #e4e5e9;
+}
+
+.find-user button:hover{
+    background-color: #d5d6da;
+}
+
+.find-user select{
+    margin-top: 10px;
+    width: 100%;
+    height: 713px;
+    background-color: white;
+    border: #e2e0e4 1px solid;
+    border-radius: 5px;
+}

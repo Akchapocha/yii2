@@ -1,0 +1,65 @@
+.find-form {
+    display: inline-block;
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+.find-form input, .find-form select{
+    /*background-color: #0d3349;*/
+    margin: 0 10px 0 10px;
+}
+
+.find-form label{
+    font-weight: normal;
+    color: #777;
+}
+
+.find-form input{
+    width: 150px;
+}
+
+.find-form select{
+    width: 300px;
+}
+
+.tbl {
+    width: 100%;
+    padding: 0 10px 0 10px;
+}
+
+.tbl table{
+    mso-cellspacing: 0;
+    width: 100%;
+    background-color: #979797;
+}
+
+.tbl tr{
+    border-bottom: 1px solid #eee;
+}
+
+.grd_head{
+    text-align: center;
+}
+
+.tbl td{
+    padding: 2px 5px 2px 5px;
+}
+
+.tbl td{
+    border-right: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.grd_row{
+    background-color: #ffffff;
+}
+
+.grd_row td{
+    border-right: 1px solid #eeeeee;
+    color: #777777;
+}
+
+.grd_row td:last-child{
+    border-right: none;
+}
+

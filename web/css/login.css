@@ -1,0 +1,68 @@
+.loginForm{
+    width: 400px;
+    background: #e4e5e9;
+    border-radius: 10px;
+}
+
+.loginForm>h1, .loginForm>p{
+    text-align: center;
+}
+
+.loginForm .col-lg-1{
+    width: 70px;
+    padding: 7px 0 0 15px;
+    text-align: left;
+}
+
+.loginForm .rememberMe{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.loginForm .rememberMe input{
+    margin: 0;
+}
+
+.loginForm .rememberMe label{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.loginForm .form-group:nth-child(4), .loginForm .form-group:nth-child(5){
+    display: inline-block;
+    width: 130px;
+    height: 35px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.loginForm .form-group:nth-child(4){
+    margin-left: 70px;
+}
+
+.loginForm .form-group:nth-child(5) button{
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 100%;
+}
+
+.loginForm .form-control{
+    width: 260px;
+}
+
+.loginForm .form-group .col-lg-8{
+    width: 100%;
+}
+
+.loginForm .form-group .col-lg-8 p{
+    padding-left: 85px;
+}
+
+.errorMessage{
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 10px;
+}

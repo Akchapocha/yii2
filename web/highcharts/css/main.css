@@ -1,0 +1,13 @@
+.table-borderless tr,
+.table-borderless td,
+.table-borderless th {
+    border: none;
+}
+
+#data-content > table tr td {
+    min-width: 120px;
+} 
+
+.data-head {
+    background-color: #bdb8b8;
+}
